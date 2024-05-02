@@ -40,7 +40,7 @@
 //==================================================================================================
 
 
-#include "../common/MergingRAVENNACommon.h"
+#include "common/MergingRAVENNACommon.h"
 #include "MTAL_stdint.h"
 
 

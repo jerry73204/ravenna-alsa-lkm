@@ -64,7 +64,7 @@
 
 #include "PTP.h"
 
-#include "../common/MT_ALSA_message_defs.h"
+#include "common/MT_ALSA_message_defs.h"
 
 struct TManager man;
 

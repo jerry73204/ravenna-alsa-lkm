@@ -38,8 +38,8 @@
 #include "PTP.h"
 #include "RTP_streams_manager.h"
 
-#include "../common/MergingRAVENNACommon.h"
-#include "../common/MT_ALSA_message_defs.h"
+#include "common/MergingRAVENNACommon.h"
+#include "common/MT_ALSA_message_defs.h"
 
 #include "MR_AudioDriverTypes.h"
 

@@ -46,7 +46,7 @@
 #include <sound/pcm_params.h>
 #include <sound/initval.h>
 
-#include "../common/MergingRAVENNACommon.h"
+#include "common/MergingRAVENNACommon.h"
 #include "MTConvert.h"
 #include "audio_driver.h"
 

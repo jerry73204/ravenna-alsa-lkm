@@ -34,7 +34,7 @@
 
 #include <linux/skbuff.h>
 
-#include "../common/MT_ALSA_message_defs.h"
+#include "common/MT_ALSA_message_defs.h"
 
 void recv_msg_from_user_land(struct sk_buff *skb);
 int send_reply_to_user_land(struct MT_ALSA_msg* msg);
