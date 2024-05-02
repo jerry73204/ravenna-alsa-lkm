@@ -1,0 +1,13 @@
+[Unit]
+Description=daemon for ALSA RAVENNA/AES67 Driver
+Requires=sound.target
+After=sound.target
+
+[Service]
+Type=simple
+ExecStart=/opt/ravenna-alsa/Merging_RAVENNA_Daemon
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
