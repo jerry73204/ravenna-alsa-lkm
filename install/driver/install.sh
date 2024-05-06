@@ -11,7 +11,7 @@ sudo -- bash /dev/stdin <<EOF
 set -e
 apt install -y dkms
 
-install -Dm644 scripts/driver/dkms.conf "/usr/src/${_pkgbase}-${pkgver}/dkms.conf"
+install -Dm644 install/driver/dkms.conf "/usr/src/${_pkgbase}-${pkgver}/dkms.conf"
 cp -rv driver/* "/usr/src/${_pkgbase}-${pkgver}/"
 cp -rv common "/usr/src/${_pkgbase}-${pkgver}/common"
 
