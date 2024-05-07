@@ -1,4 +1,4 @@
 .PHONY: build
 
 build:
-	docker build -t ravenna-alsa-daemon .
+	docker build --platform linux/amd64 -t ravenna-alsa-daemon .
